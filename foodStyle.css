@@ -1,0 +1,152 @@
+.special {
+    background: transparent;
+}
+
+.jumbotron-header {
+    background-image:url(https://www.passionclub.ro/upload/slider/slider-1.jpg);
+    margin-bottom: 0rem !important;
+}
+
+.nav-logo {
+    float:left;
+}
+
+.nav-title {
+    display: block;
+}
+
+.navbar {
+    color: white;
+}
+
+.special > .main-navbar {
+    background: transparent;
+}  
+
+div > nav > .navbar-brand {
+    line-height: 1;
+}
+
+div > div > nav > .nav-button {
+    max-width: 50px;
+    background: transparent !important;
+}
+
+.nav-sort > div > div > .nav-button-2 {
+    max-width: 50px;
+    margin-left: 10px;
+}
+
+div > div > nav > .navbar-brand > .nav-title {
+    margin-left: 20px;
+    padding-left: 40px;
+}
+
+div > div > nav > .navbar-brand > .top-title {
+    margin-top: 5px;
+}
+
+.main-navbar .navbar-nav > li > a {
+    color: white;
+    text-shadow: none;
+}
+
+.main-navbar .navbar-header > a {
+    color: #ff9900;
+}
+
+.jumbotron-header > div > nav > div > ul > li > .fa-circle {
+    color: #ff9900;
+    padding-top: 16px;
+    font-size: 5px;
+    text-shadow: none; 
+}
+
+.nav-sort {
+    background-color: #f2f2f2;
+}
+
+.nav-sort .navbar-nav > div > li > a {
+    color: black;
+}
+
+.special > .jumbotron {
+    background:transparent;
+    width: 100%;
+    color: white;
+    margin-bottom: 0rem;
+    text-shadow: 2px 2px 4px #363738;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+
+.ui-rangeslider {
+    margin: 1px !important;
+    max-width: 100%;
+}
+
+/* elements */
+
+.container > .row > .zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+    background: white;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container > .row > .card > .card-body > .description {
+    color: #bfbfbf;
+    font-weight: bolder;
+}
+.container > .row > .card > .card-body > .price {
+    color: #ff9900;
+    font-weight: bolder;
+}
+
+.container > .row-top > .card {
+    border-top-color: white;
+}
+
+.container > .row-bottom > .card {
+    border-bottom-color: white;
+}
+
+.container > .row > .start {
+    border-left-color: white;
+}
+
+.container > .row > .end {
+border-right-color: white;
+} 
+
+/* slider */
+.ui-slider-popup {
+
+    text-align: center;
+    padding-top: 10px;
+    z-index: 100;
+    opacity: 0.8;
+}
+
+.ui-slider-track .ui-slider-bg, .ui-slider-switch .ui-slider-label, .ui-slider-switch .ui-slider-inneroffset, .ui-slider-handle {
+    background-color: #ff9900 !important;
+}
+
+/* footer */
+
+footer {
+    background-color: #ff9900 ;
+    padding: 25px;
+    text-shadow: none;  
+}
+
